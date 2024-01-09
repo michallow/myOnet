@@ -13,6 +13,7 @@
 		width: auto;
 		margin: 0 16px;
 		padding: 0 7px;
+		display: flex;
 	}
 
 	.main_logo {
@@ -26,6 +27,13 @@
 	.logo-link {
 		width: 183px;
 		height: 100px;
+	}
+
+	.header_menu {
+		display: flex;
+		align-items: center;
+		position: relative;
+		margin-left: auto;
 	}
 
 	.search_wrapper {
