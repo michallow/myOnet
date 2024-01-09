@@ -44,6 +44,10 @@
 		height: 35px;
 		width: 280px;
 		margin: auto 0;
+		background: none;
+		background-color: #efefef;
+		border: none;
+		border-radius: 20px;
 	}
 
 	.search-field {
