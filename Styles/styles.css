@@ -1,15 +1,13 @@
 * {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	text-decoration: none;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 /* ====DESKTOP====  */
 @media screen and (min-width: 1158px) {
 	/* ==HEADER== */
-	.main_header {
+	.main-header {
 		width: auto;
 		margin: 0 16px;
 		padding: 0 7px;
@@ -20,7 +18,7 @@
 		position: relative;
 	}
 
-	.main_logo {
+	.main-logo {
 		transition: height 0.17s cubic-bezier(0.55, 0.06, 0.68, 0.19),
 			width 0.17s cubic-bezier(0.55, 0.06, 0.68, 0.19);
 		display: flex;
@@ -33,14 +31,14 @@
 		height: 100px;
 	}
 
-	.header_menu {
+	.header-menu {
 		display: flex;
 		align-items: center;
 		position: relative;
 		margin-left: auto;
 	}
 
-	.search_wrapper {
+	.search-wrapper {
 		display: flex;
 		position: relative;
 		height: 35px;
@@ -49,7 +47,7 @@
 		margin: auto 0;
 	}
 
-	.search_field {
+	.search-field {
 		background: none;
 		border: none;
 		padding-left: 8px;
