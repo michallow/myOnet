@@ -45,6 +45,7 @@
 		width: 280px;
 		border-radius: 20px;
 		margin: auto 0;
+		background-color: #efefef;
 	}
 
 	.search-field {
@@ -52,7 +53,7 @@
 		border: none;
 		padding-left: 8px;
 		padding-right: 12px;
-		/* -webkit-appearance: none; */
 		min-width: 0;
+		flex: 1 1;
 	}
 }
