@@ -17,11 +17,13 @@
         </div>
         <div class="header-menu">
             <form class="search-wrapper" action="https://szukaj.onet.pl/wyniki.html">
-                <svg width="16px" height="16px" viewBox="0 0 16 16" class="icon-loupe">
-                    <use href="./images/icons.svg#loupe"/>
-                </svg>
                 <input class="search-field" type="search" placeholder="" autocomplete="off">
-                <span class="icon-loupe"></span>
+                <span class="icon-loupe">
+                    <svg width="16px" height="16px" viewBox="0 0 16 16" class="icon-loupe">
+                        <use href="./images/icons.svg#loupe"/>
+                        ::before
+                    </svg>
+                </span>
                 <span class="search-placeholder-box"></span>
                 <span class="search-google-icon"></span>
                 <button type="submit" class="search-button">Szukaj</button>
