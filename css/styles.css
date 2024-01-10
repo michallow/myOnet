@@ -67,6 +67,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	opacity: 1;
+	pointer-events: none;
 }
 
 .search-field:focus + .icon-loupe {
