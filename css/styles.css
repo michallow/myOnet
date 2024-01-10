@@ -15,6 +15,7 @@
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
+	border-bottom: 1px solid #dcdcdc;
 }
 
 .main-logo {
@@ -69,6 +70,22 @@
 }
 
 .search-field:focus + .icon-loupe {
+	opacity: 0;
+}
+
+.search-placeholder-box {
+	height: 35px;
+	line-height: 35px;
+	font-size: 0.9em;
+	color: #c4c4c4;
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+.search-wrapper:focus-within .search-placeholder-box {
 	opacity: 0;
 }
 /* } */
