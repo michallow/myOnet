@@ -8,13 +8,12 @@
 /* @media screen and (min-width: 1158px) { */
 /* ==HEADER== */
 .main-header {
-	width: auto;
-	margin: 0 16px;
+	width: 1248px;
+	margin: auto;
 	padding: 0 7px;
-	align-items: center;
-	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	position: relative;
 }
 
