@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
 
 /* ====DESKTOP====  */
@@ -96,8 +97,8 @@
 
 .search-google-icon {
 	position: absolute;
-	right: 165px;
-	top: 9px;
+	right: 110px;
+	top: 21px;
 	transform: translateY(-50%);
 	opacity: 1;
 	pointer-events: none;
@@ -117,5 +118,62 @@
 	letter-spacing: 0;
 	width: 99px;
 	align-items: flex-start;
+}
+
+.service-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.17s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+	padding: 4px 0 4px 15px;
+	position: relative;
+}
+
+.menu-position {
+	height: 22px;
+	overflow: visible;
+	margin-right: 5px;
+}
+.menu-text {
+	display: inline-block;
+	transition: opacity 0.17s cubic-bezier(0.55, 0.06, 0.68, 0.19),
+		max-width 0.17s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+	position: relative;
+	overflow: hidden;
+	color: black;
+	text-transform: uppercase;
+}
+
+.mini-label {
+	color: #969696;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	position: absolute;
+	font-weight: 400;
+	letter-spacing: 0;
+	text-align: right;
+	display: flex;
+	margin-top: -14px;
+}
+
+.menu-label-prefix {
+	display: inline-block;
+	position: absolute;
+	margin-top: 18px;
+	margin-left: 17px;
+	font-size: 0.6em;
+	color: #e00000;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.onet-premium-link {
+	margin-left: 10px;
+	margin-right: 40px;
+}
+
+.onet-premium-img {
+	height: 35px;
 }
 /* } */
