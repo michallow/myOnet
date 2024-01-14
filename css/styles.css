@@ -5,6 +5,11 @@
 	text-decoration: none;
 }
 
+body {
+	font-family: "Fira Sans", sans-serif;
+	font-family: "Montserrat", sans-serif;
+}
+
 /* ====DESKTOP====  */
 /* @media screen and (min-width: 1158px) { */
 /* ==HEADER== */
@@ -36,7 +41,7 @@
 	display: flex;
 	align-items: center;
 	position: relative;
-	margin-left: auto;
+	margin-left: 90px;
 }
 
 .search-wrapper {
@@ -127,6 +132,8 @@
 	transition: all 0.17s cubic-bezier(0.55, 0.06, 0.68, 0.19);
 	padding: 4px 0 4px 15px;
 	position: relative;
+	font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+	font-size: 12.5px;
 }
 
 .menu-position {
@@ -159,8 +166,8 @@
 .menu-label-prefix {
 	display: inline-block;
 	position: absolute;
-	margin-top: 18px;
-	margin-left: 17px;
+	margin-top: 36px;
+	margin-left: -15px;
 	font-size: 0.6em;
 	color: #e00000;
 	font-weight: 700;
@@ -175,9 +182,32 @@
 
 .onet-premium-img {
 	height: 35px;
+	margin-right: 76px;
 }
 
-.mail {
-	fill:currentColor
+.additonal-services-menu {
+	display: flex;
+}
+
+.add-menu-icon {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffd200;
+	color: #1e1e1e;
+	width: 36px;
+	height: 36px;
+	border-radius: 100%;
+	margin-right: 15px;
+	position: relative;
+	transition: all 0.17s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+
+.rounded-background {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: #ffd200;
 }
 /* } */
